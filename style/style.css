@@ -209,12 +209,19 @@ button {
     color: #fff;
     background-color: #598D66;
 }
+
 .cover__contain {
+    position: relative;
+}
+
+.img__cover {
     background-image: url(/about/background__cover.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 574px;
+    position: absolute;
+    z-index: -10;
 }
 
 .cover__comment {
