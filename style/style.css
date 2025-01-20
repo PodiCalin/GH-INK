@@ -212,15 +212,11 @@ button {
 
 .cover__contain {
     position: relative;
-    background-image: url(/about/background__cover.png);
+    background-image: url(../about/background__cover.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -10;
-}
-
-.img__cover {
-
 }
 
 .cover__comment {
@@ -455,7 +451,7 @@ button {
     .cover__contain {
         width: 766px;
         height: 502px;
-        background-image: url(/about/background__cover-medium.png);
+        background-image: url(../about/background__cover-medium.png);
     }
 
     .img__cover {
